@@ -31,7 +31,7 @@ const Showvideo = ({ setIsWatched, vid, videoRef }) => {
     <>
       <Link to={`/videopage/${vid._id}`}>
         <video
-          src={`http://localhost:5000/${vid.filepath}`}
+          src={`https://youtube-clone-ecpf.onrender.com/${vid.filepath}`}
           ref={videoRef}
           onEnded={handleVideo}
           className="video_ShowVideo"
